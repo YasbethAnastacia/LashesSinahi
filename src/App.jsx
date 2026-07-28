@@ -1,6 +1,6 @@
-import { Hero } from "./assets/Navbar/Navbar" 
+import { Navbar } from "./assets/Navbar/Navbar" 
 
-import { Aboutme } from "./assets/Servicios/Servicios";
+import { Servicios } from "./assets/Servicios/Servicios";
 
 
 function App() {
