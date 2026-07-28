@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import "tailwindcss";
+
+:root {
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background-color: #fffafa;
+}
+
+.font-elegante {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.font-titulo {
+    font-family: "Old Standard TT", serif;
+}
+
+
+@keyframes entradaPagina {
+    from {
+        opacity: 0;
+        transform: translateY(-35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.entrada-pagina {
+    animation: entradaPagina 0.8s ease-out both;
+}
+
+
+@keyframes aparecerElemento {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.aparecer-elemento {
+    opacity: 0;
+    animation: aparecerElemento 0.8s ease-out forwards;
+}
+
+.retraso-1 {
+    animation-delay: 0.1s;
+}
+
+.retraso-2 {
+    animation-delay: 0.25s;
+}
+
+.retraso-3 {
+    animation-delay: 0.4s;
+}
+
+.retraso-4 {
+    animation-delay: 0.55s;
+}
