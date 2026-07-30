@@ -6,8 +6,8 @@ const enlaces = [
     { nombre: "Inicio", ruta: "/" },
     { nombre: "Sobre mí", ruta: "/#sobre-mi" },
     { nombre: "Servicios", ruta: "/servicios" },
-    { nombre: "Galería", ruta: "/#galeria" },
-    { nombre: "Contacto", ruta: "/#contacto" },
+    { nombre: "Galería", ruta: "/galeria" },
+    { nombre: "Contacto", ruta: "/contacto" },
 ];
 
 export const Navbar = () => {

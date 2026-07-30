@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa"; /**npm install react-icons */
 
 export const WhatsappButton = () => {
-    const telefono = "3121765151";
+    const telefono = "3131360725";
     const mensaje = "Hola, quiero información sobre sus servicios.";
 
     return (

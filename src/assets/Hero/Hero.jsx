@@ -27,7 +27,7 @@ export const Hero = () => {
     }, []);
 
     return (
-        <main className="relative isolate min-h-screen bg-[#fffafa] entrada-pagina">
+        <main id="Hero" className="relative isolate min-h-screen bg-[#fffafa] entrada-pagina">
             <section className="min-h-screen flex flex-col lg:grid  lg:grid-cols-[1fr_1.4fr] lg:pt-[70px]">
 
 
