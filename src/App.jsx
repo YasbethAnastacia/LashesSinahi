@@ -1,20 +1,32 @@
-import { Navbar } from "./assets/Navbar/Navbar" 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import { Navbar } from "./assets/Navbar/Navbar";
+import { Hero } from "./assets/Hero/Hero";
+import { Aboutme } from "./assets/Aboutme/Aboutme2";
 import { Servicios } from "./assets/Servicios/Servicios";
 
-
-function App() {
-return (
+function Inicio() {
+    return (
         <>
-            
-
-            
-            <Navbar />
-            <Servicios/>
-                
-            
+            <Hero />
+            <Aboutme />
         </>
     );
 }
 
-export default App
+function App() {
+    return (
+        <BrowserRouter>
+            <Navbar />
+
+            <main>
+                <Routes>
+                    <Route path="/" element={<Inicio />} />
+                    <Route path="/servicios" element={<Servicios />} />
+                </Routes>
+            </main>
+        </BrowserRouter>
+    );
+}
+
+export default App;
