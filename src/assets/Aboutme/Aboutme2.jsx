@@ -31,7 +31,7 @@ export const Aboutme = () => {
                     <img className="absolute inset-0 -z-20" src="/Aboutme/onda_celular_fuertenatural.svg" alt="" />
                     <img src="/Aboutme/jenniManchaCelular2.svg" alt="" className="h-full object-fill" />
 
-                    <div className="mb-5 flex w-full flex-col items-center justify-center gap-3">
+                    <div className=" hidden sm:flex mb-5 flex w-full flex-col items-center justify-center gap-3">
                         <div className="flex items-center justify-center gap-3">
                             <EtiquetaSobreMi />
                         </div>
@@ -48,7 +48,7 @@ export const Aboutme = () => {
                 </div>
 
                 <div className="px-6 sm:px-10 lg:px-0 lg:pt-0">
-                    <div className="mb-5 hidden items-center justify-center gap-3 lg:flex">
+                    <div className="mb-5 flex sm:hidden items-center justify-center gap-3 lg:flex">
                         <EtiquetaSobreMi />
                     </div>
 

@@ -5,6 +5,7 @@ import { Hero } from "./assets/Hero/Hero";
 import { Aboutme } from "./assets/Aboutme/Aboutme2";
 import { Servicios } from "./assets/Servicios/Servicios";
 
+
 function Inicio() {
     return (
         <>
@@ -18,6 +19,7 @@ function App() {
     return (
         <BrowserRouter>
             <Navbar />
+            
 
             <main>
                 <Routes>
