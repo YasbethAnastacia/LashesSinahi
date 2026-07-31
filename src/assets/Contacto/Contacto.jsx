@@ -161,7 +161,7 @@ export const Contacto = () => {
 
     <div className="overflow-hidden rounded-[30px] border border-[#f1d7dd] shadow-[0_15px_40px_rgba(0,0,0,0.08)]">
 
-        <iframe
+        {/*<iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d942.8021596832032!2d-103.93806873043955!3d19.054562266507503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAzJzE2LjQiTiAxMDPCsDU2JzE0LjciVw!5e0!3m2!1ses!2smx!4v1785439086511!5m2!1ses!2smx"
             
             width="100%"
@@ -170,7 +170,7 @@ export const Contacto = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-        />
+        /> */}
 
     </div>
 
