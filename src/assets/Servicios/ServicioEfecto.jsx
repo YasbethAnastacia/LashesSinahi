@@ -3,36 +3,36 @@ import { Clock3, Heart, Sparkles, ClockFading } from "lucide-react";
 const pestanas = [
     {
         id: 1,
-        imagen: "/Servicios/Efectos/wispys.png",
+        imagen: "/Servicios/Efecto/wispys.png",
         nombre: "Wispys"
     },
     {
         id: 2,
-        imagen: "/Servicios/Efectos/medusa.png",
+        imagen: "/Servicios/Efecto/medusa.png",
         nombre: "Medusa",
         
     },
     {
         id: 3,
-        imagen: "/Servicios/Efectos/rimel.png",
+        imagen: "/Servicios/Efecto/rimel.png",
         nombre: "Rimel",
         
     },
     {
         id: 4,
-        imagen: "/Servicios/Efectos/gato.png",
+        imagen: "/Servicios/Efecto/gato.png",
         nombre: "Ojo de Gato",
         
     },
     {
         id: 5,
-        imagen: "/Servicios/Efectos/capping.png",
+        imagen: "/Servicios/Efecto/capping.png",
         nombre: "Cappping",
         
     },
     {
         id: 6,
-        imagen: "/Servicios/Efectos/9d.png",
+        imagen: "/Servicios/Efecto/9d.png",
         nombre: "9D",
         
     },
