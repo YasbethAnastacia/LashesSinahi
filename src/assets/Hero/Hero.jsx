@@ -1,5 +1,6 @@
 import { CalendarDays, Heart, ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const carrusel = [
     "/Hero/foto1.svg",
@@ -85,20 +86,41 @@ export const Hero = () => {
                         </p>
 
                         <div className="flex gap-4 aparecer-elemento retraso-3">
-                            <button
-                                type="button"
-                                className="flex h-[52px] flex-1 items-center justify-center gap-3 rounded-md bg-[#d78c9b] px-7 text-[12px] font-semibold uppercase tracking-[0.08em] text-white transition duration-300 hover:bg-[#c87989]"
-                            >
-                                <CalendarDays size={17} />
-                                Agendar cita
-                            </button>
 
-                            <button
-                                type="button"
-                                className="aparecer-elemento retraso-1 h-[52px] flex-1 rounded-md border border-[#e2a4af] px-7 text-[12px] font-semibold uppercase tracking-[0.08em] text-[#333333] transition duration-300 hover:bg-[#fbecef]"
+                            <a href="https://wa.me/526141234567"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <button
+                                    type="button"
+                                    className="flex h-[52px] flex-1 items-center justify-center gap-3 rounded-md bg-[#d78c9b] px-7 text-[12px] font-semibold uppercase tracking-[0.08em] text-white transition duration-300 hover:bg-[#c87989]"
+                                >
+                                    <CalendarDays size={17} />
+                                    Agendar cita
+                                </button>
+
+                            </a>
+
+
+
+
+
+
+
+
+
+
+
+                            <Link
+                                to="/servicios"
+                                className="aparecer-elemento retraso-1 flex h-[52px] flex-1 items-center justify-center rounded-md border border-[#e2a4af] px-7 text-[12px] font-semibold uppercase tracking-[0.08em] text-[#333333] transition duration-300 hover:bg-[#fbecef]"
                             >
                                 Ver servicios
-                            </button>
+                            </Link>
+
+
+
+
+
                         </div>
 
                         <div className="flex flex-col items-center justify-center gap-3 aparecer-elemento retraso-3">
