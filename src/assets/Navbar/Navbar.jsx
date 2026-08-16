@@ -70,7 +70,7 @@ export const Navbar = () => {
                         ))}
 
                         <a
-                            href="https://wa.me/526141234567?text=Hola%2C%20quiero%20agendar%20una%20cita."
+                            href="https://wa.me/523131360725?text=Hola%2C%20quiero%20agendar%20una%20cita."
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => setMenuAbierto(false)}

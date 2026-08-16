@@ -87,7 +87,7 @@ export const Hero = () => {
 
                         <div className="flex gap-4 aparecer-elemento retraso-3">
 
-                            <a href="https://wa.me/526141234567"
+                            <a href="https://wa.me/523131360725"
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <button
